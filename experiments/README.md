@@ -13,11 +13,18 @@ python -m pip install -r .\experiments\requirements.txt
 python .\experiments\anti_aliasing_stride_ablation.py
 python .\experiments\small_object_aliasing_ablation.py
 python .\experiments\robust_perception_toy_ablation.py
+python .\experiments\report.py
 ```
 
 ## 출력
 - 기본 출력 경로: `experiments/results/`
 - 각 스크립트가 `*.json` 결과 파일 생성
+- 리포트 출력 경로: `experiments/reports/ablation_report.md`, `experiments/reports/ablation_report.json`
+
+## 한 번에 실행
+```powershell
+python .\experiments\report.py --run-ablation
+```
 
 ## 스크립트 구성
 - `anti_aliasing_stride_ablation.py`

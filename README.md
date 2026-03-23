@@ -4,3 +4,6 @@
 
 ## 메인 문서
 - [신호및시스템이 왜 CNN과 현대 컴퓨터비전에 중요한가](./docs/why-signals-systems-matter-for-cnn-and-cv.md)
+
+## Experiments
+- [바로 실행 가능한 toy ablation 스크립트](./experiments/README.md)
